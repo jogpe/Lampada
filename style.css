@@ -33,6 +33,7 @@ button#turnOff{
     cursor: pointer;
     width: 100px;
     height: 80px;
+    margin: 0 15px;
 
     background-color: red;
     border-color: red;
