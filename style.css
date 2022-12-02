@@ -1,0 +1,60 @@
+header, main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+button#turnOn{
+    font-family: 'Roboto Mono', monospace;
+    cursor: pointer;
+    width: 100px;
+    height: 80px;
+    margin: 0 15px;
+
+    background-color: greenyellow;
+    border-color: green;
+    border-radius: 5px;
+    border: 0;
+    color: aliceblue;
+    box-shadow: -3px 3px 0 rgb(51, 82, 1);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+button#turnOn:active{
+
+    box-shadow: inset -4px 4px;
+
+}
+
+button#turnOff{
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    width: 100px;
+    height: 80px;
+
+    background-color: red;
+    border-color: red;
+    border-radius: 5px;
+    border: 0;
+    color: aliceblue;
+    box-shadow: -3px 3px 0 rgb(54, 0, 0);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    
+
+}
+
+button#turnOff:active{
+
+    box-shadow: inset -4px 4px;
+
+}
+
+h1{
+    font-family: 'Roboto Mono', monospace;
+
+}
+
